@@ -18,6 +18,7 @@ public class Util {
     private static final String PASSWORD = "root";
 
     private static SessionFactory sessionFactory;
+
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
